@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	
+	<category>
+      <pattern># BUREAUTIQUE #</pattern>
+      <template>
+        Voici une config pour de la <set name = "topic">bureautique</set> ! <br></br>
+        <b>CPU :</b> AMD Ryzen 5 5600G
+        <br/><br/>
+        <b>Carte mère :</b> B450 TOMAHAWK MAX II
+        <br/><br/>
+        <b>RAM :</b> 8 Go de DDR4 à 3600 MHz
+        <br/><br/>
+        <b>Stockage :</b> 500 Go de SSD Crucial MX500
+        <br/><br/>
+        <b>Alimentation :</b> Seasonic BC-500W 80+ Bronze
+        <br/><br/>
+        <b>Boîtier :</b> ZALMAN S2 TG format ATX
+        
+        <br></br>Avec cette config, pas de soucis pour consulter des mails, faire du developpement, regarder des videos Youtube et faire du traitement de texte.
+      </template>
+    </category>
+
+    <topic name = "bureautique">
+        <category>
+            <pattern># PRIX #</pattern>
+            <template>Cette configuration requiert un budget de 500€.</template>
+        </category>
+
+        <category>
+            <pattern># WARZONE #</pattern>
+            <template>Cette configuration ne te permet pas de jouer à Warzone.</template>
+        </category>
+
+        <category>
+            <pattern># GTA #</pattern>
+            <template>Cette configuration te permet de jouer à GTA mais dans des conditions médiocres.</template>
+        </category>
+
+        <category>
+            <pattern># FORTNITE #</pattern>
+            <template>Cette configuration te permet de jouer à Fortnite mais avec une qualité low.</template>
+        </category>
+
+        <category>
+            <pattern># LOL #</pattern>
+            <template>Cette configuration te permet de jouer à League of Legends mais avec une qualité moyenne.</template>
+        </category>
+
+        <category>
+            <pattern># GAMING #</pattern>
+            <template>Cette configuration n'est pas spécialement faites pour jouer, mais tu pourras jouer à des jeux pas très puissant en 1080p 60 FPS low. Je te recommande la configuration gaming.</template>
+        </category>
+
+        <category>
+            <pattern># STREAMING #</pattern>
+            <template>Cette configuration ne te permet pas du tout de streamer. Je te recommande la configuration pour du streaming.</template>
+        </category>
+
+        <category>
+            <pattern># MULTITACHE #</pattern>
+            <template>Cette configuration te permettra d'ouvrir quelques applications simultanément, mais si tu veux ne pas etre limité, prends plutot la config multitache.</template>
+        </category>
+    </topic>
+    
+	<category>
+      <pattern># GAMING #</pattern>
+      <template>
+        Voici un PC que je te conseil pour <set name = "topic">jouer</set> en 1080P 240HZ: <br></br>
+        
+        CPU : <b>AMD Ryzen 5 5600X</b><br/>
+        Carte mère : <b>ASUS ROG STRIX B550-F GAMING</b><br/>
+        Carte graphique : <b>AMD RADEON RX 6900 XT</b><br/>
+        RAM : <b>16 Go de DDR4 à 3600 MHz</b><br/>
+        Stockage : <b>1 To de SSD NVMe, 970 evo Plus</b><br/>
+        Alimentation : <b>750W 80+ Bronze, TERMALRIGHT</b><br/>
+        Boîtier : <b>CORSAIR 4000D Airflow</b><br/>
+        
+        
+         <br></br>Cette config est super pour jouer aux jeux videos, meme les plus gourmands ! :)
+        </template>
+    </category>
+
+    <topic name = "jouer">
+        <category>
+            <pattern># PRIX #</pattern>
+            <template>Cette configuration requiert un budget de 1500€.</template>
+        </category>
+
+        <category>
+            <pattern># WARZONE #</pattern>
+            <template>Cette configuration te permet de jouer à Warzone en 144HZ/FPS.</template>
+        </category>
+
+        <category>
+            <pattern># GTA #</pattern>
+            <template>Cette configuration te permet de jouer à GTA, dans de tres bonnes conditions en 2K 144 HZ.</template>
+        </category>
+
+        <category>
+            <pattern># FORTNITE #</pattern>
+            <template>Cette configuration te permet de jouer à Fortnite sans probleme en 1080P, 360HZ/FPS.</template>
+        </category>
+
+        <category>
+            <pattern># LOL #</pattern>
+            <template>Cette configuration te permet de jouer à League of Legends sans soucis, avec une qualité Epics.</template>
+        </category>
+
+        <category>
+            <pattern># BUREATIQUE #</pattern>
+            <template>Cette configuration permet de faire de la bureautique sans probleme.</template>
+        </category>
+
+        <category>
+            <pattern># STREAMING #</pattern>
+            <template>Cette configuration te permet de streamer sans soucis ! Et sans perte de FPS</template>
+        </category>
+
+        <category>
+            <pattern># MULTITACHE #</pattern>
+            <template>Cette configuration te permettra de faire de bons rendus en 2K voir 2K. Et meme d'ouvrir beaucoup de page en meme temps. Mais le mieux pour de la bureautique reste la config multitache.</template>
+        </category>
+    </topic>
+    
+    <category>
+        <pattern># JOUER #</pattern>
+        <template><srai># GAMING #</srai></template>
+    </category>
+    
+    <category>
+        <pattern># GAMER #</pattern>
+        <template><srai># GAMING #</srai></template>
+    </category>
+    
+    <category>
+        <pattern># JEU #</pattern>
+        <template><srai># GAMING #</srai></template>
+    </category>
+    
+    <category>
+      <pattern># STREAMING #</pattern>
+      <template>
+        Voici un PC que je te conseil pour <set name = "topic">streamer</set> en 1080P 60HZ: <br></br>
+        
+            <br></br><br></br><b>CPU</b> : AMD Ryzen 7 5800X 
+            <br></br><b>Carte mère</b> : ASUS ROG STRIX B550-F GAMING
+            <br></br><b>Carte graphique</b> : NVIDIA GeForce RTX 3090
+            <br></br><b>RAM</b> : 32 Go de DDR4 à 3600 MHz
+            <br></br><b>Stockage</b> : 2 To de SSD NVMe, 970 evo Plus
+            <br></br><b>Alimentation</b> : 750W 80+ Bronze, TERMALRIGHT
+            <br></br><b>Boîtier</b> : CORSAIR 5000D Airflow
+        
+         <br></br>Si tu souhaites te lancer sur Twitch, tu auras 0 soucis avec cette configuration !
+      </template>
+    </category>
+    
+    <topic name = "streamer">
+        <category>
+            <pattern># PRIX #</pattern>
+            <template>Cette configuration te permet de travailler et de faire du développement comme du rendu 3D en 4K, ou du montage vidéo lourd, pour un budget de 2000€</template>
+        </category>
+
+        <category>
+            <pattern># WARZONE #</pattern>
+            <template>Cette configuration te permet de jouer à Warzone sans soucis, mais si tu souhaites uniquement jouer à Warzone je te conseil la config Warzone.</template>
+        </category>
+
+        <category>
+            <pattern># GTA #</pattern>
+            <template>Cette configuration te permet de jouer à GTA sans soucis, mais si tu souhaites uniquement jouer à GTA je te conseil la config GTA.</template>
+        </category>
+
+        <category>
+            <pattern># FORTNITE #</pattern>
+            <template>Cette configuration te permet de jouer à Fortnite sans soucis, mais si tu souhaites uniquement jouer à Fortnite je te conseil la config Fortnite.</template>
+        </category>
+
+        <category>
+            <pattern># LOL #</pattern>
+            <template>Cette configuration te permet de jouer à LOL sans soucis, mais si tu souhaites uniquement jouer à LOL je te conseil la config LOL.</template>
+        </category>
+
+        <category>
+            <pattern># GAMING #</pattern>
+            <template>Cette configuration te permet amplement de faire du gaming mais si tu souhaites uniquement faire du gaming, je te conseil la config gaming.</template>
+        </category>
+
+        <category>
+            <pattern># BUREATIQUE #</pattern>
+            <template>Cette configuration te permet amplement de faire de la bureautique, type Word Youtube etc... Mais si tu souhaites uniquement faire de la bureautique, je te conseil la config bureautique.</template>
+        </category>
+
+        <category>
+            <pattern># MULTITACHE #</pattern>
+            <template>Cette configuration te permet amplement de faire du multitache mais si tu souhaites uniquement faire du multitache, je te conseil la config multitache.</template>
+        </category>
+    </topic>
+
+    <category>
+        <pattern># STREAMER #</pattern>
+        <template><srai># STREAMING #</srai></template>
+    </category>
+    
+    <category>
+        <pattern># STREAM #</pattern>
+        <template><srai># STREAMING #</srai></template>
+    </category>
+    
+    <category>
+      <pattern># MULTITACHE #</pattern>
+      <template>
+        Voici un PC que je te conseil pour faire du <set name = "topic">montage</set> video ou autres. <br></br>
+        
+        <b>CPU</b> : AMD Ryzen 7 5800X 3D<br></br>
+        <b>Carte mère</b> : ASUS ROG STRIX B550-F GAMING<br></br>
+        <b>Carte graphique</b> : NVIDIA GeForce RTX 3080<br></br>
+        <b>RAM</b> : 64 Go de DDR4 à 3600 MHz<br></br>
+        <b>Stockage</b> : 2 To de SSD NVMe, 970 evo Plus<br></br>
+        <b>Alimentation</b> : 750W 80+ Bronze, TERMALRIGHT<br></br>
+        <b>Boîtier</b> : CORSAIR 4000D Airflow<br></br>
+        
+         <br></br>Tu pourras meme ouvrir plusieurs fenetres en meme temps, sans ralentissements.
+      </template>
+    </category>
+
+    <topic name = "montage">
+        <category>
+            <pattern># PRIX #</pattern>
+            <template>Cette configuration te permet de travailler et de faire du développement comme du rendu 3D en 4K, ou du montage vidéo lourd, pour un budget de 2000€</template>
+        </category>
+
+        <category>
+            <pattern># WARZONE #</pattern>
+            <template>Cette configuration permet de jouer à Warzone sans soucis.</template>
+        </category>
+
+        <category>
+            <pattern># GTA #</pattern>
+            <template>Cette configuration te permet de jouer à GTA en ultra.</template>
+        </category>
+
+        <category>
+            <pattern># FORTNITE #</pattern>
+            <template>Cette configuration te permet de jouer à Fortnite en 2K 240HZ.</template>
+        </category>
+
+        <category>
+            <pattern># LOL #</pattern>
+            <template>Cette configuration te permet de jouer à League of Legends en Epic.</template>
+        </category>
+
+        <category>
+            <pattern># GAMING #</pattern>
+            <template>Cette configuration te permet de faire du gaming en 4K sans le moindre soucis !</template>
+        </category>
+
+        <category>
+            <pattern># STREAMING #</pattern>
+            <template>Cette configuration te permettra de streamer et jouer en meme temps !</template>
+        </category>
+
+        <category>
+            <pattern># BUREATIQUE #</pattern>
+            <template>Cette configuration te permet de travailler et faire du développement sans soucis..</template>
+        </category>
+    </topic>
+</aiml>

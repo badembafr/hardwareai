@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+    <category>
+      <pattern># WINDOWS #</pattern>
+      <template><b>Pour installer Windows, tu as besoin d'une clé USB de 8 Go et d'un second PC.</b><br></br>
+        Voici les étapes à suivre : <br/>
+        1) Télécharge l'outil ISO sur le site de Microsoft. <br/>
+        2) Branche la clé USB sur ton PC <br/>
+        3) Exécute l'outil de création de support de Windows et choisis la langue etc... <br/>
+        4) Sélectionne "Clé USB" <br/>
+        5) L'outil de création de support de Windows va formater ta clé USB et copier les fichiers nécessaires. <br/>
+        6) Dans le nouveau PC : Redémarre ton ordinateur et appuie sur la touche appropriée pour accéder au menu de démarrage. <br/>
+        <br></br>Bonne installation !</template>
+    </category>
+ 
+    <category>
+      <pattern># DRIVERS #</pattern>
+      <template>
+        <b>Pour installer des drivers sur ton ordinateur, voici les étapes à suivre :</b><br></br>
+    
+        1) Identifie les drivers sur un moteur de recherche et via le site du fabriquant.<br/>
+    
+        2) Télécharge les drivers.<br/>
+    
+        3) Double-clique sur chaque fichier d'installation et suis les instructions.<br/>
+    
+        4) Redémarre ton ordinateur pour que les modifications prennent effet.<br/>
+    
+        <br></br>Toujours télécharger les drivers via le site du constructeur pour éviter les virus.<br/>
+      </template>
+    </category>
+    
+    <category>
+      <pattern># BIOS #</pattern>
+      <template>
+        <b>Voici les étapes pour configurer le BIOS :</b><br></br>
+        1) Redémarrez votre ordinateur et appuyez sur la touche appropriée pour accéder au BIOS.<br/>
+        2) Utilisez les flèches de direction pour naviguer dans le BIOS ou sinon la souris.<br/>
+        3) Faites les modifications que vous souhaitez dans le BIOS. ET faites attention !<br/>
+        4) Enregistrez vos les modifications et quittez le BIOS, avec F10.<br/>
+      </template>
+    </category>
+    
+    <category>
+      <pattern># XMP #</pattern>
+      <template>
+        <b>Voici les etapes pour activer l'XMP dans le BIOS :</b><br></br>
+        1) Redémarrez votre ordinateur et appuyez sur la touche appropriée pour accéder au BIOS. C'est la touche supp ou F10 généralement.<br/>
+        2) Utilisez les flèches de direction pour naviguer dans le BIOS ou sinon la souris.<br/>
+        3) Appuyez sur XMP Profil 1<br/>
+        4) Enregistrez vos les modifications et quittez le BIOS, avec F10.<br/>
+      </template>
+    </category>
+</aiml>

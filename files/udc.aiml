@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  
+<!-- Salutations -->
+  <category>
+    <pattern># BONJOUR #</pattern>
+    <template>
+        <random>
+            <li>Bonjour, comment je peux t'aider ?</li>
+            <li>Bonjour, je suis là pour répondre à tes questions.</li>
+            <li>Bonjour, je suis ravi de vous rencontrer.</li>
+            <li>Bonjour, que puis-je faire pour toi ?</li>
+            <li>Bonjour, je suis heureux de pouvoir t'aider.</li>
+        </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern># BONSOIR #</pattern>
+    <template>
+        <random>
+            <li>Bonsoir, comment je peux t'aider ?</li>
+            <li>Bonsoir, je suis là pour répondre à tes questions.</li>
+            <li>Bonsoir, je suis ravi de vous rencontrer.</li>
+            <li>Bonsoir, que puis-je faire pour toi ?</li>
+            <li>Bonsoir, je suis heureux de pouvoir t'aider.</li>
+        </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern># YO #</pattern>
+    <template>
+        <random>
+            <li>Yo gamer, comment puis-je vous aider ?</li>
+            <li>Yo geek, je suis là pour répondre à vos questions.</li>
+            <li>Yo joueur de jeux-vidéos, que puis-je faire pour vous ?</li>
+            <li>Yo gros geek, je suis heureux de pouvoir vous aider.</li>
+        </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern># SALUT #</pattern>
+    <template><srai># BONJOUR #</srai></template>
+  </category>
+  
+  <category>
+    <pattern># COUCOU #</pattern>
+    <template><srai># BONJOUR #</srai></template>
+  </category>
+  
+  <category>
+    <pattern># HELLO #</pattern>
+    <template><srai># BONJOUR #</srai></template>
+  </category>
+
+<!-- Comment ca va ? -->
+  <category>
+    <pattern># CA VA #</pattern>
+    <template>
+        <random>
+            <li>Ça va bien, merci !</li>
+            <li>Je vais bien !</li>
+            <li>Je me porte bien, merci !</li>
+            <li>Tout va bien, merci.</li>
+        </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern># MERCI #</pattern>
+    <template>
+        <random>
+            <li>De rien, je suis toujours là pour aider !</li>
+            <li>Pas de problème, n'hésitez pas si vous avez d'autres questions.</li>
+            <li>Ne t'inquiete pas, c'était un plaisir de vous aider.</li>
+            <li>Tout le je suis plaisir est pour moi, n'hésite si t'as besoin d'aide à nouveau.</li>
+            <li>Je suis là pour ça, n'hésite pas si t'as d'autres questions.</li>
+        </random>
+    </template>
+  </category>
+  
+  <category>
+      <pattern># OK #</pattern>
+      <template><srai>MERCI</srai></template>
+  </category>
+  
+  <category>
+      <pattern># ACCORD #</pattern>
+      <template><srai>MERCI</srai></template>
+  </category>
+  
+<!-- Aide, qui je suis ? -->
+  <category>
+    <pattern>*</pattern>
+    <template>
+        <random>
+            <li>Désolé, mais je n'ai pas compris ce que tu souhaites dire. Tu peux reformuler ta question s'il te plaît ?</li>
+            <li>Je suis désolé, je ne suis pas sur de comprendre ce que tu demandes. TU peux être plus clair dans la question s'il te plait ?</li>
+            <li>Je m'excuse, mais je n'arrive pas à comprendre votre demande. Reformule ta question de manière plus simple stp ! Merci</li>
+            <li>Je suis navré, mais je ne suis pas en mesure de répondre à ta requete. Tu peux clarifier ta question ou en poser une nouvelle ?</li>
+            <li>Je suis désolé, mais ta question n'est pas claire pour moi. Peux-tu la reformuler ou en poser une nouvelle stp ?</li>
+            <li>Je suis un bot spécialisé dans l'aide à la configuration de PC pour les jeux vidéo ou autre.</li>
+            <li>Mon domaine d'expertise est l'assistance en matière de matériel informatique.</li>
+            <li>Je suis programmé pour t'aider à configurer les spécifications matérielles de ton PC.</li>
+            <li>En tant que bot spécialisé dans l'hardware, je suis là pour essayer de répondre à tes questions.</li>
+            <li>Tu cherches de l'aide pour configurer votre PC pour les jeux ? C'est ma spécialité en tant que bot spécialisé dans l'hardware.</li>
+        </random>
+    </template>
+  </category>
+  
+  
+  <category>
+    <pattern># HELP #</pattern>
+    <template>
+        <random>
+            <li>Je suis un bot spécialisé dans l'aide à la configuration de PC pour les jeux vidéo ou autre.</li>
+            <li>Mon domaine d'expertise est l'assistance en matière de matériel informatique.</li>
+            <li>Je suis programmé pour t'aider à configurer les spécifications matérielles de ton PC.</li>
+            <li>En tant que bot spécialisé dans l'hardware, je suis là pour essayer de répondre à tes questions.</li>
+            <li>Tu cherches de l'aide pour configurer votre PC pour les jeux ? C'est ma spécialité en tant que bot spécialisé dans l'hardware.</li>
+        </random>
+    </template>
+  </category>
+  
+  <category>
+      <pattern># RESET #</pattern>
+      <template>Je suis prêt à te proposer une <set name = "topic">nouvelle</set> configuration.</template>
+  </category>
+  
+    <category>
+    <pattern># AIDE #</pattern>
+    <template><srai>HELP</srai></template>
+  </category>
+  
+  <category>
+    <pattern># PROBLEME #</pattern>
+    <template><srai>HELP</srai></template>
+  </category>
+  
+  <category>
+    <pattern># AIDER #</pattern>
+    <template><srai>HELP</srai></template>
+  </category>
+  
+  
+  <topic name = "nouvelle">
+  </topic>
+  
+  <category>
+    <pattern># AIDE #</pattern>
+    <template><srai>HELP</srai></template>
+  </category>
+
+<category>
+  <pattern># QUI #</pattern>
+  <template>Je suis un chatbot crée pour un projet dans la matiere "Création d'un chatbot informatif" par Madame Anna Pappa. <br> </br>J'ai été crée dans le but de t'aider dans le domaine de l'hardware et des sorfwares. Je fais des configurations à tous les budgets et je te depanne aussi si tu as un probleme avec ton PC. <br> </br> Ce bot a été créé par : Bademba, Alexandre, Mohamed et Haddy.
+</template>
+</category>
+
+<category>
+  <pattern># HARDWARE #</pattern>
+  <template>L'hardware est la partie physique d'un système informatique. Il englobe tous les composants électroniques, électriques et mécaniques, tels que le processeur, la mémoire, le disque dur, la carte mère, la carte graphique, l'écran, le clavier, la souris, les périphériques de stockage et les ports de connexion. Sans l'hardware, un ordinateur ne pourrait pas fonctionner.
+</template>
+</category>
+
+<category>
+  <pattern># FPS #</pattern>
+  <template>Les Hertz (Hz) mesurent la fréquence de rafraîchissement d'un écran, c'est-à-dire le nombre d'images que l'écran peut afficher par seconde. Plus le Hz est élevé, plus l'écran peut afficher rapidement des images. Les FPS (Frames Per Second) mesurent le nombre d'images par seconde dans un jeu vidéo. Plus le FPS est élevé, plus le jeu apparaîtra fluide et réactif. Les joueurs cherchent à atteindre un FPS élevé pour avoir une meilleure expérience de jeu.
+</template>
+</category>
+
+<category>
+    <pattern># HZ #</pattern>
+    <template><srai># FPS #</srai></template>
+</category>
+  
+  
+
+</aiml>

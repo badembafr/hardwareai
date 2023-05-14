@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>  
+
+    <category>
+      <pattern># 300€ #</pattern>
+      <template>
+        Voici ta configuration à <set name = "topic">300€</set> :<br/><br/>
+        
+        <b>CPU :</b> INTEL 13100<br/>
+        <b>Carte mère :</b> MSI H510M-A PRO Micro ATX LGA1200 Motherboard<br/>
+        <b>RAM :</b> 8 Go de DDR4 à 3200 MHz<br/>
+        <b>Stockage :</b> 1 TB de HDD Disque dur<br/>
+        <b>Alimentation :</b> Corsair CV-450W 80+ Bronze<br/>
+        <b>Boîtier :</b> ZALMAN S2 Format ATX<br/><br/>
+        
+        Les prix sont succeptibles de changer, car les prix du marché changent tout le temps. Bon jeu !
+      </template>
+    </category>
+
+    
+    <topic name = "300€">
+        <category>
+            <pattern># BUREAUTIQUE #</pattern>
+            <template>Cette configuration te permet de travailler et faire du développement.</template>
+        </category>
+        
+        <category>
+            <pattern># GAMING #</pattern>
+            <template>Cette configuration ne te permet pas de jouer.</template>
+        </category>
+ 
+        <category>
+            <pattern># STREAMING #</pattern>
+            <template>Cette configuration ne te permet pas de stream.</template>
+        </category>
+        
+        <category>
+            <pattern># MULTITACHE #</pattern>
+            <template>Cette configuration ne te permet pas d'utiliser plusiurs logiciels en même temps. Du moins pas beaucoup, mais seulement de type bureautique.</template>
+        </category>
+
+        <category>
+            <pattern># WARZONE #</pattern>
+            <template>Cette configuration ne te permet pas de jouer à Warzone.</template>
+        </category>
+
+        <category>
+            <pattern># GTA #</pattern>
+            <template>Cette configuration te permet de jouer à GTA mais dans des conditions médiocres.</template>
+        </category>
+
+        <category>
+            <pattern># FORTNITE #</pattern>
+            <template>Cette configuration te permet de jouer à Fortnite mais avec une qualité faible.</template>
+        </category>
+
+        <category>
+            <pattern># LOL #</pattern>
+            <template>Cette configuration te permet de jouer à League of Legends mais avec une qualité moyenne.</template>
+        </category>
+    </topic>
+
+    <category>
+      <pattern># 500€ #</pattern>
+      <template>
+        Voila une configuration pour un budget de <set name = "topic">500€</set> :<br/><br/>
+            <b>CPU :</b> AMD Ryzen 5 5600G<br/>
+            <b>Carte mère :</b> B450 TOMAHAWK MAX II<br/>
+            <b>RAM :</b> 8 Go de DDR4 à 3600 MHz<br/>
+            <b>Stockage :</b> 500 Go de SSD Crucial MX500<br/>
+            <b>Alimentation :</b> Seasonic BC-500W 80+ Bronze<br/>
+            <b>Boîtier :</b> ZALMAN S2 TG format ATX<br/><br/>
+            
+            Les prix sont succeptibles de changer, car les prix du marché changent tout le temps. Bon jeu !
+      </template>
+    </category>
+    
+    <topic name = "500€">
+        <category>
+            <pattern># BUREAUTIQUE #</pattern>
+            <template>Cette configuration te permet de travailler et faire du développement.</template>
+        </category>
+        
+        <category>
+            <pattern># GAMING #</pattern>
+            <template>Cette configuration te permet de jouer aux jeux les plus légers.</template>
+        </category>
+ 
+        <category>
+            <pattern># STREAMING #</pattern>
+            <template>Cette configuration ne te permet pas de stream.</template>
+        </category>
+        
+        <category>
+            <pattern># MULTITACHE #</pattern>
+            <template>Cette configuration te permet d'utiliser plusieurs logiciels en même temps, mais les moins gourmands.</template>
+        </category>
+
+        <category>
+            <pattern># WARZONE #</pattern>
+            <template>Cette configuration ne te permet pas de jouer à Warzone.</template>
+        </category>
+
+        <category>
+            <pattern># GTA #</pattern>
+            <template>Cette configuration te permet de jouer à GTA mais dans des conditions pas confortables.</template>
+        </category>
+
+        <category>
+            <pattern># FORTNITE #</pattern>
+            <template>Cette configuration te permet de jouer à Fortnite mais avec une qualité moyenne.</template>
+        </category>
+
+        <category>
+            <pattern># LOL #</pattern>
+            <template>Cette configuration te permet de jouer à League of Legends mais avec une qualité moyenne.</template>
+        </category>
+    </topic>
+    
+    <category>
+      <pattern># 800€ #</pattern>
+      <template>
+        Je te recommande la configuration suivante pour un budget de <set name = "topic">800€</set> :<br/><br/>
+        <b>CPU :</b> AMD Ryzen 5 5500<br/>
+        <b>Carte mère :</b> B550 A-PRO MSI<br/>
+        <b>Carte graphique :</b> AMD RX 6600<br/>
+        <b>RAM :</b> 16 Go de DDR4 à 3600 MHz<br/>
+        <b>Stockage :</b> 1 TB Go de SSD NVME M.2 970 Evo Plus<br/>
+        <b>Alimentation :</b> Seasonic BC-650W<br/>
+        <b>Boîtier :</b> MSI MAG FORGE 100M<br/><br/>
+        
+        Les prix sont succeptibles de changer, car les prix du marché changent tout le temps. Bon jeu !
+      </template>
+    </category>
+    
+    <topic name = "800€">
+        <category>
+            <pattern># BUREAUTIQUE #</pattern>
+            <template>Cette configuration te permet de travailler et faire du développement.</template>
+        </category>
+        
+        <category>
+            <pattern># GAMING #</pattern>
+            <template>Cette configuration te permet de jouer aux jeux avec des performances faibles.</template>
+        </category>
+ 
+        <category>
+            <pattern># STREAMING #</pattern>
+            <template>Il est possible de stream avec cette configuration mais pas dans les meilleurs conditions. Attends toi à des ralentissements et une qualité moyenne.</template>
+        </category>
+        
+        <category>
+            <pattern># MULTITACHE #</pattern>
+            <template>Cette configuration te permet d'utiliser plusieurs logiciels légers en même temps.</template>
+        </category>
+
+        <category>
+            <pattern># WARZONE #</pattern>
+            <template>Cette configuration te permet de jouer à Warzone, mais en qualité faible en 120 FPS.</template>
+        </category>
+
+        <category>
+            <pattern># GTA #</pattern>
+            <template>Cette configuration te permet de jouer à GTA mais dans des conditions médiocres.</template>
+        </category>
+
+        <category>
+            <pattern># FORTNITE #</pattern>
+            <template>Cette configuration te permet de jouer à Fortnite mais avec une qualité moyenne en 165HZ.</template>
+        </category>
+
+        <category>
+            <pattern># LOL #</pattern>
+            <template>Cette configuration te permet de jouer à League of Legends avec une qualité haute.</template>
+        </category>
+    </topic>
+    
+    <category>
+      <pattern># 1000€ #</pattern>
+      <template>
+        Voici une config à <set name = "topic">1000€</set> :<br/><br/>
+        <b>CPU :</b> AMD Ryzen 5 5600X<br/>
+        <b>Carte mère :</b> MSI B550 GAMING PLUS<br/>
+        <b>Carte graphique :</b> AMD 6700 XT<br/>
+        <b>RAM :</b> 16 Go de DDR4 à 3600 CRUCIAL BALLISTIX RGB<br/>
+        <b>Stockage :</b> 1 To de SSD SATA MX500<br/>
+        <b>Alimentation :</b> CORSAIR RM650W 80+ Gold<br/>
+        <b>Boîtier :</b> PHANTHEKS G360A ARGB ATX<br/><br/>
+        
+        Les prix sont succeptibles de changer, car les prix du marché changent tout le temps. Bon jeu !
+      </template>
+    </category>
+    
+    <topic name = "1000€">
+        <category>
+            <pattern># BUREAUTIQUE #</pattern>
+            <template>Cette configuration te permet de travailler et faire du développement.</template>
+        </category>
+        
+        <category>
+            <pattern># GAMING #</pattern>
+            <template>Cette configuration te permet de jouer aux jeux avec des performances moyennes.</template>
+        </category>
+ 
+        <category>
+            <pattern># STREAMING #</pattern>
+            <template>Cette configuration te permet de stream, mais tu peux avoir quelques ralentissements.</template>
+        </category>
+        
+        <category>
+            <pattern># MULTITACHE #</pattern>
+            <template>Cette configuration te permet d'utiliser quelques logiciels en même temps, les plus gourmands vont quand même poser problème.</template>
+        </category>
+
+        <category>
+            <pattern># WARZONE #</pattern>
+            <template>Cette configuration te permet de jouer à Warzone.</template>
+        </category>
+
+        <category>
+            <pattern># GTA #</pattern>
+            <template>Cette configuration te permet de jouer à GTA et dans de bonnes conditions.</template>
+        </category>
+
+        <category>
+            <pattern># FORTNITE #</pattern>
+            <template>Cette configuration te permet de jouer à Fortnite mais avec une qualité moyenne en 200 FPS.</template>
+        </category>
+
+        <category>
+            <pattern># LOL #</pattern>
+            <template>Cette configuration te permet de jouer à League of Legends mais avec une qualité moyenne.</template>
+        </category>
+    </topic>
+    
+    <category>
+      <pattern># 1200€ #</pattern>
+      <template>
+          Voila une config à <set namem = "topic">1200€</set> 
+        <br/><br/>
+        <b>CPU :</b> AMD Ryzen 7 5800X<br/>
+        <b>Carte mère :</b> ASUS ROG STRIX B550-F GAMING<br/>
+        <b>Carte graphique :</b> NVIDIA GeForce RTX 3060 ti<br/>
+        <b>RAM :</b> 16 Go de DDR4 à 3600 MHz, KINGSTON FURY S<br/>
+        <b>Stockage :</b> 1 To de SSD NVMe, 970 EVO PLUS<br/>
+        <b>Alimentation :</b> 750W 80+ Gold<br/>
+        <b>Boîtier :</b> CORSAIR 4000D AIRFLOW<br/><br/>
+        
+        Les prix sont succeptibles de changer, car les prix du marché changent tout le temps. Bon jeu !
+      </template>
+    </category>
+    
+    <topic name = "1200€">
+        <category>
+            <pattern># BUREAUTIQUE #</pattern>
+            <template>Cette configuration te permet de travailler et faire du développement.</template>
+        </category>
+        
+        <category>
+            <pattern># GAMING #</pattern>
+            <template>Cette configuration te permet de jouer aux jeux avec des bonnes performances.</template>
+        </category>
+ 
+        <category>
+            <pattern># STREAMING #</pattern>
+            <template>Cette configuration te permet de stream.</template>
+        </category>
+        
+        <category>
+            <pattern># MULTITACHE #</pattern>
+            <template>Cette configuration te permet d'utiliser plusiurs logiciels en même temps.</template>
+        </category>
+
+        <category>
+            <pattern># WARZONE #</pattern>
+            <template>Cette configuration te permet pas de jouer à Warzone.</template>
+        </category>
+
+        <category>
+            <pattern># GTA #</pattern>
+            <template>Cette configuration te permet de jouer à GTA mais dans de bonnes conditions</template>
+        </category>
+
+        <category>
+            <pattern># FORTNITE #</pattern>
+            <template>Cette configuration te permet de jouer à Fortnite mais avec une qualité moyenne.</template>
+        </category>
+
+        <category>
+            <pattern># LOL #</pattern>
+            <template>Cette configuration te permet de jouer à League of Legends avec une qualité Epic.</template>
+        </category>
+    </topic>
+    
+    <category>
+      <pattern># 1500€ #</pattern>
+      <template>
+        Voici la meilleure config rapport qualité prix à <set name = "topic">1500€</set> :<br/><br/>
+        <b>CPU :</b> AMD Ryzen 5 5600X<br/>
+        <b>Carte mère :</b> ASUS ROG STRIX B550-F GAMING<br/>
+        <b>Carte graphique :</b> NVIDIA GeForce RTX 3080<br/>
+        <b>RAM :</b> 16 Go de DDR4 à 3600 MHz<br/>
+        <b>Stockage :</b> 500 Go de SSD NVMe<br/>
+        <b>Alimentation :</b> 650W 80+ Bronze, TERMALRIGHT<br/>
+        <b>Boîtier :</b> CORSAIR 5000D Airflow<br/><br/>
+        
+        Les prix sont succeptibles de changer, car les prix du marché changent tout le temps. Bon jeu !
+      </template>
+    </category>
+    
+    <category>
+      <pattern># 1500€ #</pattern>
+      <template>
+        Voici la meilleure config rapport qualité prix à <set name = "topic">1500€</set> :<br/><br/>
+        <b>CPU :</b> AMD Ryzen 5 5600X<br/>
+        <b>Carte mère :</b> ASUS ROG STRIX B550-F GAMING<br/>
+        <b>Carte graphique :</b> NVIDIA GeForce RTX 3080<br/>
+        <b>RAM :</b> 16 Go de DDR4 à 3600 MHz<br/>
+        <b>Stockage :</b> 500 Go de SSD NVMe<br/>
+        <b>Alimentation :</b> 650W 80+ Bronze, TERMALRIGHT<br/>
+        <b>Boîtier :</b> CORSAIR 5000D Airflow<br/><br/>
+        
+        Les prix sont succeptibles de changer, car les prix du marché changent tout le temps. Bon jeu !
+      </template>
+    </category>
+    
+    <topic name = "1500€">
+        <category>
+            <pattern># BUREAUTIQUE #</pattern>
+            <template>Cette configuration te permet de travailler et faire du développement sans probleme.</template>
+        </category>
+        
+        <category>
+            <pattern># GAMING #</pattern>
+            <template>Cette configuration te permet de jouer aux jeux avec des très bonnes performances.</template>
+        </category>
+ 
+        <category>
+            <pattern># STREAMING #</pattern>
+            <template>Cette configuration te permet de stream.</template>
+        </category>
+        
+        <category>
+            <pattern># MULTITACHE #</pattern>
+            <template>Cette configuration te permet d'utiliser plusiurs logiciels en même temps.</template>
+        </category>
+
+        <category>
+            <pattern># WARZONE #</pattern>
+            <template>Cette configuration te permet pas de jouer à Warzone.</template>
+        </category>
+
+        <category>
+            <pattern># GTA #</pattern>
+            <template>Cette configuration te permet de jouer à GTA dans de tres bonnes conditions.</template>
+        </category>
+
+        <category>
+            <pattern># FORTNITE #</pattern>
+            <template>Cette configuration te permet de jouer à Fortnite sans probleme en 240hz.</template>
+        </category>
+
+        <category>
+            <pattern># LOL #</pattern>
+            <template>Cette configuration te permet de jouer à League of Legends avec une qualité ultra.</template>
+        </category>
+    </topic>
+    
+    <category>
+      <pattern># 2000€ #</pattern>
+      <template>
+        Voici une bonne config à <set name = "topic">2000€</set> :<br/><br/>
+        <b>CPU :</b> AMD Ryzen 7 5800X<br/>
+        <b>Carte mère :</b> ASUS ROG STRIX B550-F GAMING<br/>
+        <b>Carte graphique :</b> NVIDIA GeForce RTX 4070 TI<br/>
+        <b>RAM :</b> 16 Go de DDR4 à 4000 MHz, Crucial Ballistix<br/>
+        <b>Stockage :</b> 500 Go de SSD NVMe<br/>
+        <b>Alimentation :</b> 750W 80+ Gold, Corsair<br/>
+        <b>Boîtier :</b> Lian Li Lancool Mesh III<br/><br/>
+        
+        Les prix sont succeptibles de changer, car les prix du marché changent tout le temps. Bon jeu !
+      </template>
+    </category>
+    
+    <topic name = "2000€">
+        <category>
+            <pattern># BUREAUTIQUE #</pattern>
+            <template>Cette configuration te permet de travailler et faire du développement sans probleme.</template>
+        </category>
+        
+        <category>
+            <pattern># GAMING #</pattern>
+            <template>Cette configuration te permet de jouer aux jeux avec des très bonnes performances.</template>
+        </category>
+ 
+        <category>
+            <pattern># STREAMING #</pattern>
+            <template>Cette configuration te permet de stream.</template>
+        </category>
+        
+        <category>
+            <pattern># MULTITACHE #</pattern>
+            <template>Cette configuration te permet d'utiliser plusiurs logiciels en même temps.</template>
+        </category>
+
+        <category>
+            <pattern># WARZONE #</pattern>
+            <template>Cette configuration te permet pas de jouer à Warzone.</template>
+        </category>
+
+        <category>
+            <pattern># GTA #</pattern>
+            <template>Cette configuration te permet de jouer à GTA dans de tres bonnes conditions.</template>
+        </category>
+
+        <category>
+            <pattern># FORTNITE #</pattern>
+            <template>Cette configuration te permet de jouer à Fortnite sans probleme en 240hz.</template>
+        </category>
+
+        <category>
+            <pattern># LOL #</pattern>
+            <template>Cette configuration te permet de jouer à League of Legends avec une qualité ultra.</template>
+        </category>
+    </topic>
+    
+    <category>
+      <pattern># 3000€ #</pattern>
+      <template>
+          Je te recommande la configuration suivante pour un budget de <set name = "topic">3000€</set> :
+        <b>CPU :</b> AMD Ryzen 7 5800X<br/>
+        <b>Carte mère :</b> ASUS ROG STRIX B550-F GAMING<br/>
+        <b>Carte graphique :</b> NVIDIA GeForce RTX 4070<br/>
+        <b>RAM :</b> 16 Go de DDR4 à 4000 MHz, Crucial Ballistix<br/>
+        <b>Stockage :</b> 500 Go de SSD NVMe<br/>
+        <b>Alimentation :</b> 750W 80+ Gold, Corsair<br/>
+        <b>Boîtier :</b> Lian Li Lancool Mesh III<br/><br/>
+        
+        Les prix sont succeptibles de changer, car les prix du marché changent tout le temps. Bon jeu !
+      </template>
+    </category>
+
+    <topic name = "3000€">
+        <category>
+            <pattern># BUREAUTIQUE #</pattern>
+            <template>Cette configuration te permet de travailler et faire du développement sans probleme.</template>
+        </category>
+        
+        <category>
+            <pattern># GAMING #</pattern>
+            <template>Cette configuration te permet de jouer aux jeux avec des performances impécables.</template>
+        </category>
+ 
+        <category>
+            <pattern># STREAMING #</pattern>
+            <template>Cette configuration te permet de stream et jouer sans le moindre soucis.</template>
+        </category>
+        
+        <category>
+            <pattern># MULTITACHE #</pattern>
+            <template>Cette configuration te permet d'utiliser plusiurs logiciels en même temps. Meme les plus gourmands !</template>
+        </category>
+
+        <category>
+            <pattern># WARZONE #</pattern>
+            <template>Cette configuration te permet pas de jouer à Warzone en 2K 144Hz.</template>
+        </category>
+
+        <category>
+            <pattern># GTA #</pattern>
+            <template>Cette configuration te permet de jouer à GTA dans de tres bonnes conditions. En Ultra 144Hz</template>
+        </category>
+
+        <category>
+            <pattern># FORTNITE #</pattern>
+            <template>Cette configuration te permet de jouer à Fortnite sans probleme en 2K 360hz.</template>
+        </category>
+
+        <category>
+            <pattern># LOL #</pattern>
+            <template>Cette configuration te permet de jouer à League of Legends avec une qualité ultra. Pas de soucis.</template>
+        </category>
+    </topic>
+    
+    <category>
+      <pattern># 5000€ #</pattern>
+      <template>
+        Je te recommande cette giga config à <set name = "topic">5000€</set> :<br/><br/>
+
+        <b>CPU :</b> INTEL I9 13900K<br/>
+        <b>Carte mère :</b> ASUS ROG Z790 DDR5<br/>
+        <b>Carte graphique :</b> NVIDIA GeForce RTX 4090<br/>
+        <b>RAM :</b> 128 Go de DDR4 à 6400 MHz<br/>
+        <b>Stockage :</b> 4 To de SSD NVMe, SN850X <br/>
+        <b>Alimentation :</b> 1300W, MSI PCIE 3.0<br/>
+        <b>Boîtier :</b> LIan li O11 DYNAMIC EVO
+        
+        Les prix sont succeptibles de changer, car les prix du marché changent tout le temps. Bon jeu !
+
+      </template>
+    </category>
+    
+    <topic name = "5000€">
+        <category>
+            <pattern># BUREAUTIQUE #</pattern>
+            <template>Cette configuration te permet de travailler et faire du développement sans probleme. Tu pourras tout faire avec cette configuration sans limite.</template>
+        </category>
+        
+        <category>
+            <pattern># GAMING #</pattern>
+            <template>Cette configuration te permet de jouer aux jeux avec des performances impécables. Tu pourras tout faire avec cette configuration sans limite.</template>
+        </category>
+ 
+        <category>
+            <pattern># STREAMING #</pattern>
+            <template>Cette configuration te permet de stream et jouer sans le moindre soucis. Tu pourras tout faire avec cette configuration sans limite.</template>
+        </category>
+        
+        <category>
+            <pattern># MULTITACHE #</pattern>
+            <template>Cette configuration te permet d'utiliser plusiurs logiciels en même temps. Meme les plus gourmands ! Tu pourras tout faire avec cette configuration sans limite. Tu pourras meme faire de gros rendus en multitache, du type Photoshop etc, de la 3D Blender, vraiment tout !</template>
+        </category>
+
+        <category>
+            <pattern># WARZONE #</pattern>
+            <template>Cette configuration te permet pas de jouer à Warzone en 2K 240Hz. Tu pourras tout faire avec cette configuration sans limite.</template>
+        </category>
+
+        <category>
+            <pattern># GTA #</pattern>
+            <template>Cette configuration te permet de jouer à GTA dans de tres bonnes conditions. En 4K 144Hz. Tu pourras tout faire avec cette configuration sans limite.</template>
+        </category>
+
+        <category>
+            <pattern># FORTNITE #</pattern>
+            <template>Cette configuration te permet de jouer à Fortnite sans probleme en 4K 360hz. Tu pourras tout faire avec cette configuration sans limite.</template>
+        </category>
+
+        <category>
+            <pattern># LOL #</pattern>
+            <template>Cette configuration te permet de jouer à League of Legends avec une qualité ultra meme en 4K. Pas de soucis.Tu pourras tout faire avec cette configuration sans limite. </template>
+        </category>
+    </topic>
+</aiml>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	
+
+    <category>
+      <pattern># GTA #</pattern>
+      <template>
+        <random>
+      <li>Voici un PC pour jouer comme un pro sur <set name = "topic">GTA</set> !</li>
+      <li>Obtiens les meilleures performances sur <set name = "topic">GTA</set> avec ce PC !</li>
+      <li>Ne laisse plus rien te retenir avec ce PC de gaming pour <set name = "topic">GTA</set> !</li>
+      <li>Ce PC est parfait pour les joueurs de <set name = "topic">GTA</set> qui cherchent à améliorer leur expérience de jeu !</li>
+      <li>Avec ce PC, tu pourras jouer à <set name = "topic">GTA</set> avec des graphismes incroyables et une fluidité optimale !</li>
+    </random>
+      <br/><br/>
+        <b>CPU :</b> AMD Ryzen 7 5800X<br/>
+        <b>Carte mère :</b> MSI B550 GAMING PLUS<br/>
+        <b>Carte graphique :</b> AMD 7900 XTX<br/>
+        <b>RAM :</b> 16 Go de DDR4 à 4000 MHZ CORSAIR RGB<br/>
+        <b>Stockage :</b> 2 To de SSD, SN750<br/>
+        <b>Alimentation :</b> SEASONIC RMX850W 80+ Gold<br/>
+        <b>Boîtier :</b> PHANTHEKS P360A RGB ATX<br/><br/>
+        Tu pourras jouer avec les graphismes en ULTRA sans perte de FPS, Bon jeu !
+    </template>
+    </category>
+    
+    <topic name = "GTA">
+        <category>
+            <pattern># PRIX #</pattern>
+            <template>Cette configuration requiert un budget de 1800€.</template>
+        </category>
+
+        <category>
+            <pattern># BUREAUTIQUE #</pattern>
+            <template>Cette configuration te permet de travailler et faire du développement.</template>
+        </category>
+        
+        <category>
+            <pattern># GAMING #</pattern>
+            <template>Cette configuration te permet pas de jouer sans soucis.</template>
+        </category>
+ 
+        <category>
+            <pattern># STREAMING #</pattern>
+            <template>Cette configuration te permet de streamer et de jouer.</template>
+        </category>
+        
+        <category>
+            <pattern># MULTITACHE #</pattern>
+            <template>Cette configuration te permet d'utiliser plusiurs logiciels en même temps.</template>
+        </category>
+
+        <category>
+            <pattern># WARZONE #</pattern>
+            <template>Cette configuration te permet de jouer à Warzone.</template>
+        </category>
+
+        <category>
+            <pattern># FORTNITE #</pattern>
+            <template>Cette configuration te permet de jouer à Fortnite.</template>
+        </category>
+
+        <category>
+            <pattern># LOL #</pattern>
+            <template>Cette configuration te permet de jouer à League of Legends.</template>
+        </category>
+    </topic>
+
+    <category>
+      <pattern># FORTNITE #</pattern>
+      <template>
+        <random>
+          <li>Voici un PC pour jouer comme un pro sur <set name = "topic">Fortnite!</set></li>
+          <li>Obtiens les meilleures performances sur <set name = "topic">Fortnite!</set>  !</li>
+          <li>Ne laisse plus rien te retenir avec ce PC de gaming pour <set name = "topic">Fortnite!</set>!</li>
+          <li>Ce PC est parfait pour les joueurs de <set name = "topic">Fortnite!</set> qui cherchent à améliorer leur expérience de jeu !</li>
+        </random>
+        <b>CPU :</b> AMD Ryzen 5 5600X<br/>
+        <b>Carte mère :</b> MSI B550 GAMING PLUS<br/>
+        <b>Carte graphique :</b> AMD 6700 XT<br/>
+        <b>RAM :</b> 16 Go de DDR4 à 3600 CRUCIAL BALLISTIX RGB<br/>
+        <b>Stockage :</b> 1 To de SSD SATA MX500<br/>
+        <b>Alimentation :</b> CORSAIR RM650W 80+ Gold<br/>
+        <b>Boîtier :</b>  PHANTHEKS G360A ARGB ATX<br/><br/>
+        Je te recommande de mettre tous les paramètres en low, la distance d'affichage en élevé et de mettre le mode performance.
+      </template>
+    </category>
+
+    <topic name = "Fortnite">
+         <category>
+            <pattern># PRIX #</pattern>
+            <template>Cette configuration requiert un budget de 1200€.</template>
+        </category>
+
+        <category>
+            <pattern># BUREAUTIQUE #</pattern>
+            <template>Cette configuration te permet de travailler et faire du développement.</template>
+        </category>
+        
+        <category>
+            <pattern># GAMING #</pattern>
+            <template>Cette configuration te permet pas de jouer sans soucis.</template>
+        </category>
+ 
+        <category>
+            <pattern># STREAMING #</pattern>
+            <template>Cette configuration te permet de streamer et de jouer.</template>
+        </category>
+        
+        <category>
+            <pattern># MULTITACHE #</pattern>
+            <template>Cette configuration te permet d'utiliser plusiurs logiciels en même temps.</template>
+        </category>
+
+        <category>
+            <pattern># WARZONE #</pattern>
+            <template>Cette configuration te permet de jouer à Warzone.</template>
+        </category>
+
+        <category>
+            <pattern># FORTNITE #</pattern>
+            <template>Cette configuration te permet de jouer à Fortnite.</template>
+        </category>
+
+        <category>
+            <pattern># LOL #</pattern>
+            <template>Cette configuration te permet de jouer à League of Legends.</template>
+        </category>
+    </topic>
+    
+    <category>
+      <pattern># WARZONE #</pattern>
+      <template>
+        <random>
+      <li>Voici un PC pour jouer comme un pro sur <set name = "topic">Warzone</set> !</li>
+      <li>Obtiens les meilleures performances sur <set name = "topic">Warzone</set> avec ce PC !</li>
+      <li>Ne laisse plus rien te retenir avec ce PC de gaming pour <set name = "topic">Warzone</set> !</li>
+      <li>Ce PC est parfait pour les joueurs de <set name = "topic">Warzone</set> qui cherchent à améliorer leur expérience de jeu !</li>
+      <li>Avec ce PC, tu pourras jouer à <set name = "topic">Warzone</set> avec des graphismes incroyables et une fluidité optimale !</li>
+        </random>
+      <br/><br/>
+        <b>CPU :</b> AMD Ryzen 7 3700X.<br/>
+        <b>Carte mère :</b> MSI B550 A PRO.<br/>
+        <b>Carte graphique :</b> RTX 3090 TI.<br/>
+        <b>RAM :</b> 16 Go de DDR4 à <b>4400 MHZ</b> CORSAIR RGB.<br/>
+        <b>Stockage :</b> 4 To de SSD, SN850X.<br/>
+        <b>Alimentation :</b> SEASONIC RMX750W 80+ Gold.<br/>
+        <b>Boîtier :</b> LIAN LI MESH II RGB ATX.<br/><br/>
+        Warzone est un jeu gourmand en ressources, il demande donc une carte graphique puissante et beaucoup de stockage !
+    </template>
+    </category>
+
+    <topic name = "Warzone">
+         <category>
+            <pattern># PRIX #</pattern>
+            <template>Cette configuration requiert un budget de 1900€.</template>
+        </category>
+
+        <category>
+            <pattern># BUREAUTIQUE #</pattern>
+            <template>Cette configuration te permet de travailler et faire du développement.</template>
+        </category>
+        
+        <category>
+            <pattern># GAMING #</pattern>
+            <template>Cette configuration te permet pas de jouer sans soucis.</template>
+        </category>
+ 
+        <category>
+            <pattern># STREAMING #</pattern>
+            <template>Cette configuration te permet de streamer et de jouer.</template>
+        </category>
+        
+        <category>
+            <pattern># MULTITACHE #</pattern>
+            <template>Cette configuration te permet d'utiliser plusiurs logiciels en même temps.</template>
+        </category>
+
+        <category>
+            <pattern># WARZONE #</pattern>
+            <template>Cette configuration te permet de jouer à Warzone.</template>
+        </category>
+
+        <category>
+            <pattern># FORTNITE #</pattern>
+            <template>Cette configuration te permet de jouer à Fortnite.</template>
+        </category>
+
+        <category>
+            <pattern># LOL #</pattern>
+            <template>Cette configuration te permet de jouer à League of Legends.</template>
+        </category>
+    </topic>
+    
+    <category>
+      <pattern># LOL #</pattern>
+    <template>
+    <random>
+      <li>Voici un PC pour jouer comme un pro sur <set name = "topic">League of Legends</set> !</li>
+      <li>Obtiens les meilleures performances sur <set name = "topic">League of Legends</set> avec ce PC !</li>
+      <li>Ne laisse plus rien te retenir avec ce PC de gaming pour <set name = "topic">League of Legends</set> !</li>
+      <li>Ce PC est parfait pour les joueurs de <set name = "topic">League of Legends</set> qui cherchent à améliorer leur expérience de jeu !</li>
+      <li>Avec ce PC, tu pourras jouer à <set name = "topic">League of Legends</set> avec des graphismes incroyables et une fluidité optimale !</li>
+    </random>
+      <br/><br/>
+    
+      <b>CPU :</b> AMD Ryzen 5600G<br/>
+      <b>Carte mère :</b> MSI B550 A PRO<br/>
+      <b>RAM :</b> 16 Go de DDR4 à 3200 MHZ CORSAIR LPX<br/>
+      <b>Stockage :</b> 500 Go de SSD, MX500<br/>
+      <b>Alimentation :</b> CORSAIR CVX550W 80+ Bronze<br/>
+      <b>Boîtier :</b> MSI MAG FORGE 100R<br/><br/>
+    
+      LOL est un jeu qui n'utilise pas beaucoup de ressources, une carte graphique modeste suffit à jouer dans des conditions optimales !
+    </template>
+    </category>
+
+    <topic name = "League of Legends">
+        <category>
+            <pattern># PRIX #</pattern>
+            <template>Cette configuration requiert un budget de 500€.</template>
+        </category>
+
+        <category>
+            <pattern># BUREAUTIQUE #</pattern>
+            <template>Cette configuration te permet de travailler et faire du développement.</template>
+        </category>
+        
+        <category>
+            <pattern># GAMING #</pattern>
+            <template>Cette configuration ne te permet de jouer mais en qualité low 60 FPS en 1080p..</template>
+        </category>
+ 
+        <category>
+            <pattern># STREAMING #</pattern>
+            <template>Cette configuration ne te permet pas de stream.</template>
+        </category>
+        
+        <category>
+            <pattern># MULTITACHE #</pattern>
+            <template>Cette configuration te permet d'utiliser quelques logiciels en meme temps</template>
+        </category>
+
+        <category>
+            <pattern># WARZONE #</pattern>
+            <template>Cette configuration ne te permet pas de jouer à Warzone.</template>
+        </category>
+
+        <category>
+            <pattern># FORTNITE #</pattern>
+            <template>Cette configuration te permet de jouer à Fortnite mais avec une qualité low.</template>
+        </category>
+
+        <category>
+            <pattern># GTA #</pattern>
+            <template>Cette configuration te permet de jouer à GTA mais avec une qualité moyenne.</template>
+        </category>
+    </topic>
+</aiml>

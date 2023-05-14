@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+  <category>
+    <pattern># CLAVIER #</pattern>
+    <template>
+        <random>
+                <li>Voici un clavier RGB 100% : Corsair K70 RGB Mk.2</li> 
+                <li>Voici un clavier RGB TKL : Cooler Master CK530 V2</li>
+                <li>Voici un clavier RGB 100% : Razer Huntsman Elite</li>
+                <li>Voici un clavier RGB TKL: SteelSeries Apex Pro</li>
+                <li>Voici un clavier RGB 100% : HyperX Alloy FPS Pro</li>
+        </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern># SOURIS #</pattern>
+    <template>
+        <random>
+    <li>Voici une bonne souris niveau rapport qualité prix: Logitech G502 HERO</li>
+    <li>Voici une bonne souris gaming: Razer DeathAdder Elite</li>
+    <li>Voici une souris conseillée : SteelSeries Rival 600</li>
+    <li>Voici une souris RGB : HyperX Pulsefire FPS Pro</li>
+    <li>Voici une souris sobre : Logitech G pro X wireless</li>
+
+        </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern># ECRAN #</pattern>
+    <template>
+        <random>
+    <li>Voici un ecran bureautique 60 HZ IPS : Dell Ultrasharp U2415</li>
+    <li>Voici un ecran 4K en 27 pouces ! LG 27UK850-W </li>
+    <li>Voici un ecran 27 pouces ! ASUS Designo MX27UCS</li>
+    <li>Voici un ecran 32 pouces ! AOC  C32G2AE</li>
+    <li>Voici un ecran pour de la bureautique ! ViewSonic VX2457-MHD</li>
+
+        </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern># CHAISE #</pattern>
+    <template>
+        <random>
+            <li>Voici une chaise gaming en cuir : Secretlab Omega Series</li>
+            <li>Voici une chaise gaming haut de gamme : Noblechairs Hero Series</li>
+            <li>Voici une chaise DX Racer : DXRacer Formula Series</li>
+            <li>Voici une chaise DX Racer : Arozzi Verona Pro V2</li>
+            <li>Voici une chaise : Corsair T3 Rush</li>
+
+        </random>
+    </template>
+  </category>
+  
+  <category>
+      <pattern># CASQUE #</pattern>
+    <template>
+        <random>
+        <li>Voici un bon casque pour ecouter les ennemis ! HyperX Cloud II</li>
+        <li>Voici un bon casque pour ecouter les adversaires ! Sennheiser Game One</li>
+        <li>Voici un bon casque sans fils ! Logitech G533 Wireless</li>
+        <li>Voici un casque RGB ! Corsair Void RGB Elite Wireless</li>
+        <li>Voici un casque pro gaming ! Razer Kraken Tournament Edition</li>
+        </random>
+    </template>
+  </category>
+</aiml>
