@@ -267,4 +267,10 @@
             <template>Cette configuration te permet de travailler et faire du développement sans soucis..</template>
         </category>
     </topic>
+
+    
+    <category>
+        <pattern># MONTAGE #</pattern>
+        <template><srai>MULTITACHE</srai></template>
+    </category>
 </aiml>
